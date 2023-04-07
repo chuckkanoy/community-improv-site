@@ -7,7 +7,6 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Games from "./pages/games/Games";
 import Gallery from "./pages/gallery/Gallery";
-import Opening from "./opening/Opening";
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
           <Route path="/gameslist" element={<Games />}/>
           <Route path="/gallery" element={<Gallery />}/>
           <Route path="/home" element={<Home />}/>
-          <Route path="/" element={<Opening />}/>
+          <Route path="/" element={<Home />}/>
         </Routes>
       </div>
     </Router>
