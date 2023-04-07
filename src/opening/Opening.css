@@ -1,0 +1,15 @@
+.openingCard {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("matt_yelling.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 100px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}

@@ -7,7 +7,8 @@ const pages = [
     "Home",
     "Events",
     "About",
-    "Games List"
+    "Games List",
+    "Gallery"
 ]
 
 function NavBar() {

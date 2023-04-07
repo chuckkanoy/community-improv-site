@@ -1,9 +1,9 @@
 :root {
-  --indigo-dye: #004777;
-  --taupe-gray: #8C8A93;
-  --safety-orange: #ff7700;
-  --peach-yellow: #efd28d;
-  --mountbatten-purple: #977390;
+  --color-1: #004777;
+  --color-2: #8C8A93;
+  --color-3: #ff7700;
+  --color-4: #efd28d;
+  --color-5: #977390;
 }
 
 body {
@@ -13,13 +13,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--peach-yellow);
-  color: var(--indigo-dye);
+  background-color: var(--color-4);
+  color: var(--color-1);
 }
 
 body a{
   text-decoration: none;
-  color: var(--safety-orange)
+  color: var(--color-3)
+}
+
+body h1 {
+  text-align: center;
 }
 
 code {

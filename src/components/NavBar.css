@@ -1,18 +1,32 @@
 .navContainer {
-    background-color: var(--indigo-dye);
     height: 100%;
-    width: 150px;
+    width: 125px;
     position: absolute;
     display: flex;
     flex-direction: column;
 }
 
 .navLink {
-    margin: 10px;
     font-size: 20px;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .navLink:hover {
-    color: var(--peach-yellow);
+    color: var(--color-4);
+    background-color: var(--color-1);
+    animation: slide-out 0.3s;
+    animation-fill-mode: forwards;
     transition: 0.3s;
+}
+
+@keyframes slide-out {
+    from { 
+        width: 125px; 
+        padding-left: 10px;
+    }
+    to { 
+        width: 135px;
+        padding-left: 20px; 
+    }
 }
