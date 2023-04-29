@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Town",
+        "description": "Players will initially organize themselves in four corners on stage. Each player will get a suggestion for their location starting with the person stage right. The caller will then say, \"Switch left!\" or \"Switch Right!\", at which point each player will rotate either clockwise or counter-clockwise to the next corner. After all players have gathered their suggestions, players will recap their locations to the audience. Once everyone turns to their original corner, the two people in front begin the scene, starting with the location of the person oriented stage right.",
+        "type": "Short Form",
+        "numPlayers": 4
+    }
+]

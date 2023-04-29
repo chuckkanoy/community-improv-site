@@ -1,9 +1,9 @@
 :root {
-  --color-1: #004777;
-  --color-2: #8C8A93;
-  --color-3: #ff7700;
-  --color-4: #efd28d;
-  --color-5: #977390;
+  --color-1: #490E0E;
+  --color-2: #BFBAB4;
+  --color-3: #0E0003;
+  --color-4: #E0D0A0;
+  --color-5: #9A9385;
 }
 
 body {
@@ -18,13 +18,23 @@ body {
   color: var(--color-1);
 }
 
+@font-face {
+  font-family: abril-fatface;
+  src: url(/public/AbrilFatface-Regular.ttf);
+}
+
 body a{
   text-decoration: none;
   color: var(--color-3)
 }
 
-body h1 {
+body h1{
   text-align: center;
+  font-family: abril-fatface;
+}
+
+body h3{
+  font-family: abril-fatface;
 }
 
 code {

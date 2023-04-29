@@ -1,0 +1,17 @@
+.gameCard {
+    width: 100%;
+    border-radius: 3px;
+    color: var(--color-1);
+}
+
+.gameCard:hover {
+    background-color: var(--color-1);
+    color: var(--color-4);
+}
+
+td {
+    padding-left: 10px;
+    padding-top: 2px;
+    vertical-align: top;
+    margin-top: 0;
+}

@@ -356,7 +356,7 @@ function Opening() {
   return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
     to: "/home",
     className: "openingCard",
-    children: "[NEEDANAME]"
+    children: "Imp Mob Comedy"
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 8,
@@ -423,7 +423,7 @@ var _jsxFileName = "/Users/charles.kanoy/Repos/community-improv-site/src/pages/a
 
 function About() {
   return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)("h1", {
-    children: "A Little More About [NEEDANAME]"
+    children: "A Little More About Imp Mob Comedy"
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 5,
@@ -691,7 +691,7 @@ var _jsxFileName = "/Users/charles.kanoy/Repos/community-improv-site/src/pages/h
 
 function Home() {
   return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)("h1", {
-    children: "[NEEDANAME]"
+    children: "Imp Mob Comedy"
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 5,
