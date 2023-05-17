@@ -29,20 +29,12 @@ function Games() {
     return (
         <>
             <h1>{name}</h1>
-            <table>
-                <tr>
-                    <td><b>Type:</b></td>
-                    <td>{type}</td>
-                </tr>
-                <tr>
-                    <td><b>Players:</b></td>
-                    <td>{numPlayers}</td>
-                </tr>
-                <tr>
-                    <td><b>Description:</b></td>
-                    <td>{description}</td>
-                </tr>
-            </table>
+            <b>Type:</b>
+            <p>{type}</p>
+            <b>Players:</b>
+            <p>{numPlayers}</p>
+            <b>Description:</b>
+            <p>{description}</p>
         </>
     );
 }

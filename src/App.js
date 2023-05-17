@@ -8,6 +8,8 @@ import About from "./pages/about/About";
 import Games from "./pages/games/Games";
 import GameDetail from "./pages/games/GameCard/GameDetail";
 import Gallery from "./pages/gallery/Gallery";
+import Members from "./pages/members/Members";
+import MemberDetail from "./pages/members/MemberCard/MemberDetail";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="/gameslist" element={<Games />}/>
           <Route path="/gallery" element={<Gallery />}/>
           <Route path="/home" element={<Home />}/>
+          <Route path="/members" element={<Members />}/>
+          <Route path="/members/:memberName" element={<MemberDetail />}/>
           <Route path="/" element={<Home />}/>
         </Routes>
       </div>

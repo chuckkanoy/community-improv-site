@@ -5,10 +5,11 @@ import "./NavBar.css";
 
 const pages = [
     "Home",
-    "Events",
+    // "Events",
+    "Members",
     "About",
     "Games List",
-    "Gallery"
+    // "Gallery"
 ]
 
 function NavBar() {

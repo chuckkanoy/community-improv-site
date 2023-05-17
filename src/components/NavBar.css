@@ -30,3 +30,13 @@
         padding-left: 20px; 
     }
 }
+
+@media (max-device-width: 480px)
+{
+    .navContainer {
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}

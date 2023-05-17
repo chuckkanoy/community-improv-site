@@ -8,3 +8,10 @@
 .siteHeader {
     text-align: center;
 }
+
+@media (max-device-width: 480px)
+{
+    .App {
+        margin: 10px;
+    }
+}
