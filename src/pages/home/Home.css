@@ -17,3 +17,16 @@
 
     border: none;
 }
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+@media (max-device-width: 480px) {
+    .logo {
+        width: 80%;
+    }
+}

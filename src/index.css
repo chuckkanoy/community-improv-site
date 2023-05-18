@@ -1,13 +1,13 @@
 :root {
-  --color-1: #490E0E;
-  --color-2: #BFBAB4;
-  --color-3: #0E0003;
-  --color-4: #E0D0A0;
-  --color-5: #9A9385;
+  --color-1: #000000;
+  --color-2: #FF7F47;
+  --color-3: #FF3131;
+  --color-4: #E9ECF4;
+  --color-5: #2C0E37;
+  /* FF7F47 */
 }
 
 body {
-  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

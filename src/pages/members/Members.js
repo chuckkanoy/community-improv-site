@@ -10,8 +10,7 @@ function Games() {
             <h1>Members</h1>
             {memberslist.map(member => {
                 return (
-                    <Link to={`/members/${member.name?.replace(" ", "_").toLowerCase()}`} 
-                        className="memberCard">
+                    <Link to={`/members/${member.name?.replace(" ", "_").toLowerCase()}`} >
                         <div className="memberCard">
                             {member.name}
                         </div>

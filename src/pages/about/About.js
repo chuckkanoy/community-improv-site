@@ -3,16 +3,16 @@ import React from "react";
 function About() {
     return (
         <>
-            <h1>A Little More About Imp Mob Comedy</h1>
+            <h1>A Little More About Imp Mob Improv</h1>
             <h3>Our History</h3>
             <p>
-                Imp Mob Comedy is an improv troupes whose members are primarily comprised of former
+                Imp Mob Improv is an improv troupes whose members are primarily comprised of former
                 and current members of NDSU's improv troupe To Be Determined Comedy.
             </p>
             <h3>Our Goal</h3>
             <p>
                 We aim to further our understanding of improvisation, entertaining members of
-                the Fargo Moorehead community along the way.
+                the Fargo Moorhead community along the way.
             </p>
             <h3>What to Expect at a Show</h3>
             <p>
@@ -25,9 +25,9 @@ function About() {
             <h3>Socials 📢</h3>
             You can find us on the following social media!<br/>
             Facebook -&gt; <a href="https://www.facebook.com/profile.php?id=100092431854456">
-                Imp Mob Comedy</a><br/>
-            Instagram -&gt; <a href="https://www.instagram.com/impmob.comedy/">
-                impmob.comedy
+                Imp Mob Improv</a><br/>
+            Instagram -&gt; <a href="https://www.instagram.com/impmob.improv/">
+                impmob.improv
             </a>
         </>
     );
