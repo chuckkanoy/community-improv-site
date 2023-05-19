@@ -19,7 +19,22 @@ function Home() {
                 would like to know more about our club, head to the&nbsp;<Link to="/about">About
                 </Link> section. We look forward to entertaining you very soon.
             </p>
-            {/*TODO: add contact information*/}
+            <h3>Socials 📢</h3>
+            You can find us on the following social media!<br/>
+            Facebook -&gt; 
+            <a href="https://www.facebook.com/profile.php?id=100092431854456">
+                Imp Mob Improv
+            </a>
+            <br/>
+            Instagram -&gt; 
+            <a href="https://www.instagram.com/impmob.improv/">
+                impmob.improv
+            </a>
+            <br/>
+            Email -&gt; 
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=impmob.comedy@gmail.com&su=Imp%20Mob%20Improv%20Inquiry">
+                impmob.comedy@gmail.com
+            </a>
         </>
     );
 }

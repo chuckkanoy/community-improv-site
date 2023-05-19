@@ -10,6 +10,7 @@ import GameDetail from "./pages/games/GameCard/GameDetail";
 import Gallery from "./pages/gallery/Gallery";
 import Members from "./pages/members/Members";
 import MemberDetail from "./pages/members/MemberCard/MemberDetail";
+import Page404 from "./pages/page404/page404";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/members" element={<Members />}/>
           <Route path="/members/:memberName" element={<MemberDetail />}/>
           <Route path="/" element={<Home />}/>
+          <Route path="*" element={<Page404 />}/>
         </Routes>
       </div>
     </Router>

@@ -22,13 +22,6 @@ function About() {
                 an experience truly unique to each show and location. We hope to see you at one
                 soon.😈
             </p>
-            <h3>Socials 📢</h3>
-            You can find us on the following social media!<br/>
-            Facebook -&gt; <a href="https://www.facebook.com/profile.php?id=100092431854456">
-                Imp Mob Improv</a><br/>
-            Instagram -&gt; <a href="https://www.instagram.com/impmob.improv/">
-                impmob.improv
-            </a>
         </>
     );
 }
